@@ -6,7 +6,7 @@ class india():
         print("Hindi is the official language of India")    
 
     def type (self):
-        print("India is a democratic country")
+        print("India is a deeveloping country")
 
 class usa(): 
     def capital(self):
@@ -17,3 +17,10 @@ class usa():
 
     def type (self):
         print("USA is a developed country")
+obj_ind = india()
+obj_usa = usa()
+
+for country in (obj_ind,obj_usa):
+    country.capital()
+    country.language()
+    country.type()
